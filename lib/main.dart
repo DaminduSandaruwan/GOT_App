@@ -14,10 +14,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
         primaryColor: Colors.white,
-        canvasColor: Colors.white,
+        canvasColor: Colors.black,
         appBarTheme: AppBarTheme(
           elevation: 0,
-          color: Colors.white,
+          color: Colors.grey[700],
         ),
       ),
       home: CharacterListingScreen(),
