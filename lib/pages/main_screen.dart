@@ -45,9 +45,9 @@ class _CharacterListingScreenState extends State<CharacterListingScreen> {
                 child: RichText(
                   text: TextSpan(
                     children: [
-                      TextSpan(text: "Game of the Thrones", style: AppTheme.display1),
+                      TextSpan(text: "Game of the Thrones", style: AppTheme.display1.copyWith(color:Colors.red),),
                       TextSpan(text: "\n"),
-                      TextSpan(text: "Characters",style: AppTheme.display2),
+                      TextSpan(text: "Characters",style: AppTheme.display2.copyWith(color:Colors.yellow, fontWeight: FontWeight.bold)),
                     ]
                   ),
                 ),

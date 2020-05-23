@@ -41,4 +41,13 @@ List characters = [
     "Sansa Stark is the eldest daughter of Eddard Stark of Winterfell and his wife Catelyn. She initially starts off with a very naive view of the world, but as time goes on and she and her family suffer one cruelty and betrayal after another, she becomes a more hardened and learned individual.",
       colors: [Colors.grey.shade800, Colors.grey.shade800]
   ),
+
+  Character(
+    name: "Tyrion Lannister",
+    imagePath: "assets/images/Tyrion.jpeg",
+    description:
+    "Lord Tyrion Lannister is the youngest child of Lord Tywin Lannister and younger brother of Cersei and Jaime Lannister. A dwarf, he uses his wit and intellect to overcome the prejudice he faces.",
+      colors: [Colors.grey.shade800, Colors.grey.shade800]
+  ),
+
 ];
